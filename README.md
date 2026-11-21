@@ -3,7 +3,13 @@
 Practice project following the official
 [OpenAI Agents SDK (Python) quickstart](https://openai.github.io/openai-agents-python/quickstart/).
 
-The example creates a "History Tutor" agent that answers history questions.
+Each tutorial section is saved as its own runnable script:
+
+| File | Tutorial section |
+| --- | --- |
+| `01_hello_agent.py` | Create your first agent |
+| `02_tools.py` | Give your agent tools |
+| `03_multiple_agents.py` | Add a few more agents |
 
 ## Requirements
 
@@ -22,7 +28,7 @@ pip install openai-agents
 
 ```bash
 export OPENAI_API_KEY="sk-..."
-python main.py
+python 01_hello_agent.py
 ```
 
 ## References
