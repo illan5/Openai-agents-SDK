@@ -1,0 +1,32 @@
+# OpenAI Agents SDK – Quickstart
+
+Practice project following the official
+[OpenAI Agents SDK (Python) quickstart](https://openai.github.io/openai-agents-python/quickstart/).
+
+The example creates a "History Tutor" agent that answers history questions.
+
+## Requirements
+
+- Python 3.10 or later
+- An OpenAI API key ([create one here](https://platform.openai.com/api-keys))
+
+## Installation
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install openai-agents
+```
+
+## Usage
+
+```bash
+export OPENAI_API_KEY="sk-..."
+python main.py
+```
+
+## References
+
+- Tutorial: https://openai.github.io/openai-agents-python/quickstart/
+- SDK documentation: https://openai.github.io/openai-agents-python/
+- SDK repository: https://github.com/openai/openai-agents-python
