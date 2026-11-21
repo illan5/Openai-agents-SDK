@@ -3,6 +3,8 @@
 Practice project following the official
 [OpenAI Agents SDK (Python) quickstart](https://openai.github.io/openai-agents-python/quickstart/).
 
+<img src="claude-code-icon.png" alt="Claude" width="350"/>
+
 Each tutorial section is saved as its own runnable script:
 
 | File | Tutorial section |
